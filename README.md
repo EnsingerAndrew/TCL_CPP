@@ -22,8 +22,8 @@ Hyperparameters:
 - `measurement_duration` controls the number of previous trials involved in avg accuracy and avg error calculations
 
 Additional Notes: 
-Weights can be set to random initial values by running the script `parameter_randomizer.py`
-The file `datasets/mini.csv` includes 2000 MNIST samples which is a relatively small amount but loading the original 60K can take time. 
-Original MNIST dataset can be found at https://www.kaggle.com/datasets/oddrationale/mnist-in-csv?resource=download 
+- Weights can be set to random initial values by running the script `parameter_randomizer.py`
+- The file `datasets/mini.csv` includes 2000 MNIST samples which is a relatively small amount but loading the original 60K can take time. 
+- Original MNIST dataset can be found at https://www.kaggle.com/datasets/oddrationale/mnist-in-csv?resource=download 
 
 
