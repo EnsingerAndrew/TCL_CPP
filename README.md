@@ -13,13 +13,13 @@ Steps to Train Parameters:
     2. Note 2: the weights have already been trained so accuracy should be relatively stable at approx 85-90%
 
 Hyperparameters: 
--`update_parameters` controls if training takes place, set to 0 for pure testing without training 
--`save_parameters` controls if parameters are saved to csv files periodically 
--`trials` controls number of iterations of training loop 
--`desired_sample_size` allows user to enter maximum sample size 
--`sample_size` is the minimum of the `desired_sample_size` and number of images found in training set
--`save_frequency` controls the number of training iterations before parameters are saved to csv files
--`measurement_duration` controls the number of previous trials involved in avg accuracy and avg error calculations
+- `update_parameters` controls if training takes place, set to 0 for pure testing without training 
+- `save_parameters` controls if parameters are saved to csv files periodically 
+- `trials` controls number of iterations of training loop 
+- `desired_sample_size` allows user to enter maximum sample size 
+- `sample_size` is the minimum of the `desired_sample_size` and number of images found in training set
+- `save_frequency` controls the number of training iterations before parameters are saved to csv files
+- `measurement_duration` controls the number of previous trials involved in avg accuracy and avg error calculations
 
 Additional Notes: 
 Weights can be set to random initial values by running the script `parameter_randomizer.py`
